@@ -9,7 +9,7 @@ export const Contacto = () => {
         <a href='https://www.instagram.com/?hl=es-la'>
           <i className='fab fa-instagram fa-2px' />
         </a>
-        <a href='http://www.google.com.ec/'>
+        <a href='https://www.google.com.ec/'>
           <i className='fab fa-whatsapp fa-2px' />
         </a>
       </div>

@@ -1,9 +1,9 @@
-html{
+html {
   font-family: 'Comfortaa', cursive;
   font-family: 'Montserrat', sans-serif;
 }
 
-body{
+body {
   background-image: url(assets/hamburguesa.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body{
   color: white;
 }
 
-.section-app{
+.section-app {
   width: 50%;
   background-color: black;
   border-radius: 1rem;
@@ -22,19 +22,19 @@ body{
 
 /* Menu */
 
-.container-menu{
+.container-menu {
   margin: 2rem;
   padding: 0;
 }
 
-#imagen{
+#imagen {
   max-width: 100px;
   max-height: 100px;
   margin: 0 auto;
   padding: 20px 0;
 }
 
-#titulos{
+#titulos {
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
@@ -43,60 +43,60 @@ body{
 
 /* Platos */
 
-.container-platos{
+.container-platos {
   width: 100%;
   margin: 2rem;
   padding-left: 1.75rem;
 }
 
-#info-plato{
+#info-plato {
   max-width: 275px;
 }
 
-.platos-dere{
+.platos-dere {
   max-width: 700px;
   margin: 0 auto;
   display: flex;
   padding-bottom: 4rem;
 }
 
-.platos-dere img{
+.platos-dere img {
   padding-left: 4rem;
   max-height: 160px;
 }
 
-.platos-iz{
+.platos-iz {
   max-width: 700px;
   margin: 0 auto;
   display: flex;
   padding-bottom: 4rem;
 }
 
-.platos-iz img{
+.platos-iz img {
   padding-right: 6.75rem;
   max-height: 160px;
 }
 
 /* Contactos */
 
-.container-contactos{
+.container-contactos {
   width: 95%;
   margin: 2rem;
   padding: 0;
 }
 
-.container-contactos div{
+.container-contactos div {
   width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
 
-i{
+i {
   padding: 0.75rem 1.5rem 2rem 1.5rem;
 }
 
@@ -104,64 +104,64 @@ i{
 
 @media screen and (max-width: 1400px) {
   
-  .section-app{
+  .section-app {
     width: 80%;
     margin: 0 auto;
     padding: 0;
   }
 
-  .container-menu{
+  .container-menu {
     margin: 1rem;
   }
 
-  #imagen img{
+  #imagen img {
     width: 143px;
     height: 133px;
   }
 
-  #titulos h1{
+  #titulos h1 {
     font-size: 2.30em;
   }
 
-  #titulos h3{
+  #titulos h3 {
     font-size: 1.95em;
   }
 
-  .container-platos{
+  .container-platos {
     margin: 2.7rem;
     width: 100%;
   }
 
-  #info-plato{
+  #info-plato {
     max-width: 91%;
   }
 
-  #info-plato h2{
+  #info-plato h2 {
     font-size: 2.25em;
   }
 
-  #info-plato p{
+  #info-plato p {
     font-size: 1.90em;
   }
 
-  .platos-dere{
+  .platos-dere {
     flex-direction: column;
     padding-bottom: 2rem;
   }
 
-  .platos-dere img{
+  .platos-dere img {
     width: 90%;
     padding: 0;
     max-width: 550px;
     max-height: 350px;
   }
 
-  .platos-iz{
+  .platos-iz {
     flex-direction: column;
     padding-bottom: 2rem;
   }
 
-  .platos-iz img{
+  .platos-iz img {
     width: 90%;
     padding: 0;
     max-width: 550px;
@@ -169,12 +169,12 @@ i{
     order: 2;
   }
 
-  .container-contactos{
+  .container-contactos {
     width: 100%;
     margin: 2rem;
   }
 
-  .container-contactos h2{
+  .container-contactos h2 {
     font-size: 2.50em;
   }
 
@@ -182,75 +182,75 @@ i{
 
 @media screen and (max-width: 1000px) {
   
-  .section-app{
+  .section-app {
     width: 100%;
     margin: 0;
     padding: 0;
   }
 
-  .container-menu{
+  .container-menu {
     margin: 1rem;
   }
 
-  #imagen img{
+  #imagen img {
     width: 143px;
     height: 133px;
   }
 
-  #titulos h1{
+  #titulos h1 {
     font-size: 2.17em;
   }
 
-  #titulos h3{
+  #titulos h3 {
     font-size: 1.72em;
   }
 
-  .container-platos{
+  .container-platos {
     margin: 1rem;
     width: 80%;
   }
 
-  #info-plato{
+  #info-plato {
     max-width: 100%;
   }
 
-  #info-plato h2{
+  #info-plato h2 {
     font-size: 1.95em;
   }
 
-  #info-plato p{
+  #info-plato p {
     font-size: 1.54em;
   }
 
-  .platos-dere{
+  .platos-dere {
     flex-direction: column;
     padding-bottom: 2rem;
   }
 
-  .platos-dere img{
+  .platos-dere img {
     width: 90%;
     padding: 0;
     max-height: 250px;
   }
 
-  .platos-iz{
+  .platos-iz {
     flex-direction: column;
     padding-bottom: 2rem;
   }
 
-  .platos-iz img{
+  .platos-iz img {
     width: 90%;
     padding: 0;
     max-height: 250px;
     order: 2;
   }
 
-  .container-contactos{
+  .container-contactos {
     width: 80%;
     margin: 2rem;
   }
 
-  .container-contactos h2{
+  .container-contactos h2 {
     font-size: 2.17em;
   }
 
@@ -258,45 +258,45 @@ i{
 
 @media screen and (max-width: 600px) {
   
-  .section-app{
+  .section-app {
     width: 100%;
     margin: 0;
     padding: 0;
   }
 
-  .container-menu{
+  .container-menu {
     margin: 1rem;
   }
 
-  .container-platos{
+  .container-platos {
     margin: 1rem;
     width: 80%;
   }
 
-  .platos-dere{
+  .platos-dere {
     flex-direction: column;
     padding-bottom: 2rem;
   }
 
-  .platos-dere img{
+  .platos-dere img {
     width: 90%;
     padding: 0;
     max-height: 180px;
   }
 
-  .platos-iz{
+  .platos-iz {
     flex-direction: column;
     padding-bottom: 2rem;
   }
 
-  .platos-iz img{
+  .platos-iz img {
     width: 90%;
     padding: 0;
     max-height: 180px;
     order: 2;
   }
 
-  .container-contactos{
+  .container-contactos {
     width: 80%;
     margin: 2rem;
   }
@@ -305,51 +305,51 @@ i{
 
 @media screen and (max-width: 400px) {
   
-  .section-app{
+  .section-app {
     width: 100%;
     margin: 0;
     padding: 0;
   }
 
-  .container-menu{
+  .container-menu {
     margin: 1rem;
   }
 
-  .container-menu img{
+  .container-menu img {
     max-width: 113px;
     max-height: 103px;
     padding-top: 0.75rem;
   }
 
-  .container-platos{
+  .container-platos {
     margin: 1rem;
     width: 80%;
   }
 
-  .platos-dere{
+  .platos-dere {
     flex-direction: column;
     padding-bottom: 2rem;
   }
 
-  .platos-dere img{
+  .platos-dere img {
     width: 90%;
     padding: 0;
     max-height: 180px;
   }
 
-  .platos-iz{
+  .platos-iz {
     flex-direction: column;
     padding-bottom: 2rem;
   }
 
-  .platos-iz img{
+  .platos-iz img {
     width: 90%;
     padding: 0;
     max-height: 180px;
     order: 2;
   }
 
-  .container-contactos{
+  .container-contactos {
     width: 80%;
     margin: 2rem;
   }
